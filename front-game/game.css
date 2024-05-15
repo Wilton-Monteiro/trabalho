@@ -6,32 +6,34 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: green;
-    
-    
-
 }
 
 #app {
-    width: 80%;
+    width: 100%;
     max-width: 600px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .personagem {
     background-color: white;
     border: 5px solid #070707;
-    margin: 0 auto; 
     margin-bottom: 20px;
-    
+    padding: 20px; /* Adicionado padding para espaçamento interno */
     border-radius: 20px;
-    width: 200px;
+    width: 100%; /* Ajusta a largura para ocupar o espaço disponível */
+    max-width: 300px; /* Define uma largura máxima */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
 }
-
 
 .acoes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
+    margin-top: 10px; /* Adicionado para espaço entre a barra de vida e os botões */
 }
 
 button {
