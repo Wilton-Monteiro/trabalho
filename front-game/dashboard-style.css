@@ -8,7 +8,7 @@ body {
 
 
 .container {
-    max-width: 800px;
+    max-width: 700px;
     margin: 50px auto;
     padding: 20px;
     background-image: linear-gradient(black, brown, green);
@@ -20,16 +20,18 @@ h1 {
     text-align: center;
 }
 
-
-
 .personagens {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-    margin-top: 5px;
-    
+    margin-top: 30px;
 }
 
+.personagem {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
 }
 
 h2 {
