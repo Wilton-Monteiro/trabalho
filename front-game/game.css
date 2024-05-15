@@ -1,14 +1,10 @@
 body, html {
     height: 100%;
-    width: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
-    
-    
-
+    background-color: #e1ecf1;
 }
 
 #app {
@@ -19,14 +15,12 @@ body, html {
 
 .personagem {
     background-color: white;
-    border: 5px solid #070707;
-    margin: 0 auto; 
+    border: 2px solid #1d509f;
     margin-bottom: 20px;
-    
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 5px;
     width: 200px;
 }
-
 
 .acoes {
     display: grid;
@@ -38,7 +32,7 @@ button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #1a1708;
+    background-color: #1d509f;
     color: whitesmoke;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
@@ -54,7 +48,7 @@ button:active {
 
 .barra-vida {
     height: 30px;
-    background-color: #1e8321;
+    background-color: #4CAF50;
     color: whitesmoke;
     display: flex;
     align-items: center;
