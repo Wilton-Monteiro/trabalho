@@ -25,8 +25,9 @@ h1 {
 .personagens {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Adicione esta linha */
-    margin-top: 20px;
+    align-items: center; 
+    margin-top: 5px;
+    
 }
 
 }
